@@ -1,0 +1,136 @@
+/* styles.css */
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* Header Section */
+.header {
+    background-color: #000;
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  /* Banner Section */
+  .banner {
+    background-color: #007bff;
+    color: red;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+
+
+/* Icon and Points */
+.icon-section {
+    margin: 20px 0;
+}
+
+.icon img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.points h1 {
+    margin: 10px 0;
+    font-size: 40px;
+    color: rgb(247, 240, 240); /* Golden color for emphasis */
+}
+
+
+.task {
+    text-align: left ;
+    padding-left: 25px;
+    margin-bottom: 0px;
+}
+  /* Tasks Section */
+  .tasks {
+    padding: 20px;
+  }
+
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e1e1e;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+
+  .task-item:hover {
+    background-color: #333;
+  }
+
+  .task-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .task-left img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .task-title {
+    font-size: 16px;
+  }
+
+  .task-reward {
+    color: rgb(116, 103, 103);
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .start-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .start-btn:hover {
+    background-color: #0056b3;
+  }
+
+  /* Bottom Navigation */
+  .bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .bottom-nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .bottom-nav img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 0 auto 5px;
+  }
+
+
+
