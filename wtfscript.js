@@ -15,7 +15,7 @@ function createItem() {
 
     // Set item image
     const img = document.createElement("img");
-    img.src = isBug ? "bug.png" : "developer.png"; // Bug or Developer
+    img.src = isBug ? "icons/bug.png" : "icons/developer.png"; // Bug or Developer
     item.appendChild(img);
 
     // Set position
@@ -45,7 +45,7 @@ function createItem() {
 // Trigger explosion effect
 function triggerExplosion(item) {
     const explosion = document.createElement("div");
-    explosion.classList.add("explosion");
+    explosion.classList.add("icons/explosion");
     explosion.style.left = item.style.left; // Position it where the bug was
     explosion.style.top = item.style.top;
 
